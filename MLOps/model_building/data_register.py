@@ -2,7 +2,7 @@ from huggingface_hub.utils import RepositoryNotFoundError, HfHubHTTPError
 from huggingface_hub import HfApi, create_repo
 import os
 
-repo_id = "RStoopAi/PIMA-Diabetes-Prediction"
+repo_id = "RStoopAi/PIMA_Diabetes_Prediction"
 repo_type = "dataset"
 
 api = HfApi(token=os.getenv("HF_TOKEN"))
