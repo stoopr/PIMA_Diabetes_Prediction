@@ -16,7 +16,7 @@ except RespositoryNotFoundError:
     print(f"Space '{repo_id}' created.")
 
 api.upload_folder(
-    foler_path="MLOps/data",
+    folder_path="MLOps/data",
     repo_id=repo_id,
     repo_type=repo_type,
 )
